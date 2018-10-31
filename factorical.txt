@@ -1,0 +1,22 @@
+#
+#Created by: Wendi Yu
+#Created on: 31 Oct 2018
+#
+# Calculate factorical
+
+# var of counter
+
+counter = 0
+answer = 1
+
+num_text = int(input("Enter the positive integer between 1 and 100, then we will calculate the factorical for you. Number = "))
+
+# forloop statment
+
+for counter in range ( 1, num_text):
+  counter += 1
+  answer = answer * counter
+  
+print ("The answer is : " + str((answer)) )
+
+input ()
